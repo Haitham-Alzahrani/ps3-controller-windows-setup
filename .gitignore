@@ -1,0 +1,4 @@
+installed/
+installers/
+*.log
+gui/gui.log

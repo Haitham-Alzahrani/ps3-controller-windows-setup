@@ -1,0 +1,20 @@
+{
+  "langName": "English",
+  "appTitle": "PS3 Controller Setup",
+  "heading": "Set up your controller",
+  "intro": "Plug your controller into the computer with its cable, then press the big button.",
+  "btnSetup": "Set up my controller",
+  "btnRemove": "Remove",
+  "btnHelp": "See details",
+  "working": "Setting up... this takes about a minute. Please wait.",
+  "removing": "Removing... please wait.",
+  "uacHint": "Windows will ask \"Do you want to allow this?\" - click Yes.",
+  "uacCancelled": "You clicked No. Press the button again and choose Yes.",
+  "doneTitle": "All done!",
+  "doneMsg": "Unplug the cable and press the round PS button in the middle to play.",
+  "removeDone": "Removed. The controller setup was taken off this PC.",
+  "failTitle": "Couldn't finish",
+  "failMsg": "Something didn't work. Try again, or open the details.",
+  "removeConfirm": "This removes the controller setup from this PC. Continue?",
+  "engineMissing": "Setup-PS3-Controller.cmd was not found next to this app. Put 'Start Here.cmd' and the 'gui' folder in the same folder as Setup-PS3-Controller.cmd."
+}

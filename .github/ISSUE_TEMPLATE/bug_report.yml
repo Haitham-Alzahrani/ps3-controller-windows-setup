@@ -1,0 +1,39 @@
+name: "🐞 Bug / it didn't work"
+description: "Tell us what went wrong so we can fix it."
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for the report! Please fill in what you can — the `/check` output is the most helpful part."
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows version
+      options: ["Windows 11", "Windows 10", "Other / not sure"]
+    validations:
+      required: true
+  - type: dropdown
+    id: controller
+    attributes:
+      label: Controller
+      options: ["Genuine Sony DualShock 3", "Clone / third-party", "Not sure"]
+    validations:
+      required: true
+  - type: dropdown
+    id: wireless
+    attributes:
+      label: How are you connecting wirelessly?
+      options: ["8BitDo dongle", "PC's built-in Bluetooth", "USB cable only", "Not sure"]
+  - type: textarea
+    id: check
+    attributes:
+      label: Output of `Setup-PS3-Controller.cmd /check`
+      description: "Run it (it changes nothing) and paste the result here."
+      render: text
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: "What did you expect, and what happened instead? Any error message?"
+    validations:
+      required: true

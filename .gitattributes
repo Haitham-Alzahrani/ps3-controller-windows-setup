@@ -1,0 +1,5 @@
+# The driver's catalog holds a hash of these exact bytes, so git must never change their line endings.
+driver/** -text
+# cmd.exe needs CRLF.
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
